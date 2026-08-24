@@ -1,0 +1,98 @@
+[
+  {
+    "id": "proj-1",
+    "title": "Enterprise Data Center Infrastructure & Cabling",
+    "category": "networking",
+    "organization": "Electro Engineering",
+    "period": "2019 - 2024",
+    "image": "images/projects/datacenter.jpg",
+    "description": "Architected and built standardized enterprise data center infrastructure including server racks, patch panels, cable trays, UPS backup units, and high-throughput Cisco switches.",
+    "highlights": [
+      "Structured Cat6/Cat6A and Fiber-Optic cabling deployment",
+      "Core/Distribution switch layer configuration and VLAN segmentation",
+      "Environmental monitoring and server rack cooling optimization"
+    ],
+    "technologies": ["Cisco Catalyst", "Fiber Optics", "Cat6A", "Patch Panels", "VLANs", "UPS Power Management"],
+    "icon": "server"
+  },
+  {
+    "id": "proj-2",
+    "title": "Multi-Floor CCTV IP Surveillance & Video Analytics",
+    "category": "surveillance",
+    "organization": "Electro Engineering & Hotels",
+    "period": "2019 - 2024",
+    "image": "images/projects/cctv.jpg",
+    "description": "Designed, deployed, and configured comprehensive IP surveillance systems with 80+ Hikvision IP cameras, NVR centralized recording, motion detection, and remote monitoring.",
+    "highlights": [
+      "Hikvision HCSA-certified maintenance and CGSA camera tuning",
+      "PoE network infrastructure with isolated surveillance VLANs",
+      "24/7 centralized NVR recording storage calculations and remote mobile viewing"
+    ],
+    "technologies": ["Hikvision HCSA", "NVR/DVR", "PoE Switches", "Video Analytics", "VLAN Isolation", "RTSP Streams"],
+    "icon": "cctv"
+  },
+  {
+    "id": "proj-3",
+    "title": "High-Density Hotel Wi-Fi & Routing Infrastructure",
+    "category": "networking",
+    "organization": "Empire Addis & Kenenisa Hotel",
+    "period": "2017 - 2023",
+    "image": "images/projects/wifi.jpg",
+    "description": "Engineered enterprise-grade seamless roaming Wi-Fi for multi-floor hotels with captive portal authentication, bandwidth throttling, and guest network segmentation.",
+    "highlights": [
+      "Centralized Access Point controller management with zero dead-zones",
+      "Guest vs Administrative LAN traffic isolation with firewall security",
+      "QoS prioritization for VoIP telephony and ERP systems"
+    ],
+    "technologies": ["Enterprise Wi-Fi APs", "Cisco Routers", "Captive Portal", "QoS Bandwidth Rules", "Firewall"],
+    "icon": "wifi"
+  },
+  {
+    "id": "proj-4",
+    "title": "CNET Hospitality ERP System Management & Server Administration",
+    "category": "systems",
+    "organization": "Empire Addis, Kenenisa & Sunspot Hotels",
+    "period": "2017 - 2023",
+    "image": "images/projects/erp.jpg",
+    "description": "Full lifecycle server deployment and database maintenance for CNET ERP running front-desk operations, POS terminals, inventory, and back-office accounting.",
+    "highlights": [
+      "Windows Server & SQL database daily automated backup routines",
+      "Multi-terminal POS and front-desk client workstation synchronization",
+      "99.9% uptime maintenance with rapid disaster recovery protocols"
+    ],
+    "technologies": ["CNET ERP", "Windows Server", "SQL Database", "Active Directory", "Disaster Recovery"],
+    "icon": "database"
+  },
+  {
+    "id": "proj-5",
+    "title": "IP PBX Telephony & Hotel IPTV Intercom Deployment",
+    "category": "systems",
+    "organization": "Electro Engineering & Sunspot Hotel",
+    "period": "2019 - 2024",
+    "image": "images/projects/telephony.jpg",
+    "description": "Installed and configured VoIP IP PBX phone systems and digital TV distribution networks for guest rooms, conference halls, and administrative offices.",
+    "highlights": [
+      "SIP trunk configuration, extension mapping, and auto-attendant IVR",
+      "Hotel TV headend and coaxial/IPTV distribution for multi-room audio/video",
+      "Call quality optimization with SIP ALG configuration and dedicated voice VLAN"
+    ],
+    "technologies": ["IP PBX", "VoIP / SIP", "Voice VLAN", "Hotel TV Headend", "Grandstream / Yealink"],
+    "icon": "phone"
+  },
+  {
+    "id": "proj-6",
+    "title": "Web Portals & Business IT Systems Integration",
+    "category": "web",
+    "organization": "Empire Addis Hotel & ABC Car Rent",
+    "period": "2018 - 2023",
+    "image": "images/projects/web.jpg",
+    "description": "Developed and maintained responsive web portals, booking integrations, and internal systems using JavaScript and PHP, alongside social media management.",
+    "highlights": [
+      "Custom internal workflow and fleet management dashboards",
+      "Search Engine Optimization (SEO) and web performance tuning",
+      "Cross-device responsive web portals with secure inquiry forms"
+    ],
+    "technologies": ["JavaScript", "PHP", "HTML5/CSS3", "Car Rental ERP", "Digital Marketing", "SEO"],
+    "icon": "code"
+  }
+]

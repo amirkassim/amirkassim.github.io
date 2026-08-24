@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethio Installers Listing Web App | Amir Kassim - Case Study</title>
+  <meta name="description" content="A full-stack technician directory and CCTV installer marketplace web application connecting Ethiopian businesses with certified security and network engineers.">
+  <link rel="icon" type="image/svg+xml" href="../icons/code.svg">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/animation.css">
+  <link rel="stylesheet" href="../css/project-detail.css">
+</head>
+<body>
+  <!-- Offline Alert Banner -->
+  <div class="offline-banner" id="offline-banner" role="status" aria-live="polite"></div>
+
+  <!-- Header Navigation -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="../index.html" class="brand" aria-label="Amir Kassim Portfolio Home">
+        <div class="brand-avatar-wrap">
+          <img src="../images/profile.jpg" alt="Amir Kassim" class="brand-avatar">
+          <span class="status-indicator" title="Available for hire"></span>
+        </div>
+        <div class="brand-info">
+          <span class="brand-name">Amir Kassim</span>
+          <span class="brand-title">Network &amp; Systems Engineer</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="main-nav" aria-label="Main navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="../index.html#about" class="nav-link">About</a></li>
+          <li><a href="../index.html#skills" class="nav-link">Skills</a></li>
+          <li><a href="../index.html#experience" class="nav-link">Experience</a></li>
+          <li><a href="../index.html#projects" class="nav-link active">Projects</a></li>
+          <li><a href="../index.html#education" class="nav-link">Education</a></li>
+          <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="offline-badge" id="offline-badge" title="App functions 100% offline">
+          <span class="offline-dot"></span>
+          <span class="offline-text" id="offline-status-text">Online</span>
+        </div>
+
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <img src="../icons/moon.svg" alt="Switch to Dark Mode" id="theme-toggle-icon" width="18" height="18">
+        </button>
+
+        <a href="../files/Amir_Kassim_Resume.html" class="btn btn-outline btn-sm header-resume-btn" download="Amir_Kassim_Resume.html" target="_blank" rel="noopener">
+          <img src="../icons/download.svg" alt="" width="14" height="14">
+          <span>CV</span>
+        </a>
+
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Project Hero Section -->
+    <section class="project-hero-section">
+      <div class="container">
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <ol class="breadcrumb-list">
+            <li class="breadcrumb-item">
+              <a href="../index.html" class="breadcrumb-link">Home</a>
+              <span class="breadcrumb-separator">/</span>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="../index.html#projects" class="breadcrumb-link">Projects</a>
+              <span class="breadcrumb-separator">/</span>
+            </li>
+            <li class="breadcrumb-item">
+              <span class="breadcrumb-current" aria-current="page">Ethio Installers Web App</span>
+            </li>
+          </ol>
+        </nav>
+
+        <!-- Back to Portfolio Button -->
+        <a href="../index.html#projects" class="back-to-portfolio-btn" id="btn-back-portfolio">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Back to Projects</span>
+        </a>
+
+        <div class="project-hero-header">
+          <div class="project-hero-badges">
+            <span class="project-category-badge badge-surveillance">Web Application &amp; Marketplace</span>
+            <div class="project-status-pill">
+              <span class="status-dot-pulse"></span>
+              <span>Live &amp; Growing Directory</span>
+            </div>
+          </div>
+          <h1 class="project-hero-title">Ethio Installers Listing Web App &amp; Technician Marketplace</h1>
+          <p class="detail-paragraph" style="max-width: 860px; font-size: 1.15rem;">
+            A responsive, full-stack directory listing web application and quotation platform designed to connect commercial and residential clients across Ethiopia with verified CCTV, network cabling, access control, and telecom technicians.
+          </p>
+
+          <!-- Hero Meta Grid -->
+          <div class="project-meta-grid">
+            <div class="project-meta-item">
+              <span class="project-meta-label">Client / Organization</span>
+              <span class="project-meta-value">
+                <img src="../icons/briefcase.svg" alt="" width="16" height="16">
+                Ethio Installers Directory
+              </span>
+            </div>
+            <div class="project-meta-item">
+              <span class="project-meta-label">Timeline / Period</span>
+              <span class="project-meta-value">2023 – 2024</span>
+            </div>
+            <div class="project-meta-item">
+              <span class="project-meta-label">Category</span>
+              <span class="project-meta-value">Web Application &amp; Directory</span>
+            </div>
+            <div class="project-meta-item">
+              <span class="project-meta-label">My Role</span>
+              <span class="project-meta-value">Full-Stack Web Architect &amp; UI Lead</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Large Hero Showcase Image -->
+        <div class="project-hero-showcase">
+          <img src="../images/projects/cctv_listing.jpg" alt="Ethio Installers Web App UI" class="project-hero-img" id="heroMainImg">
+          <div class="project-hero-overlay">
+            <div>
+              <div class="project-hero-caption-title">Ethio Installers — Technician Directory &amp; Quote Request Engine</div>
+              <div class="project-hero-caption-sub">City-based filtering (Addis Ababa, Hawassa, Adama), verified technician badge verification, and portfolio galleries</div>
+            </div>
+            <button type="button" class="project-hero-zoom-btn" id="heroZoomBtn" aria-label="Open fullscreen gallery viewer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <polyline points="9 21 3 21 3 15"></polyline>
+                <line x1="21" y1="3" x2="14" y2="10"></line>
+                <line x1="3" y1="21" x2="10" y2="14"></line>
+              </svg>
+              <span>View Full Gallery (6 Images)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="project-content-grid">
+          <div class="project-main-column">
+            <!-- Project Overview Section -->
+            <section class="detail-card-section">
+              <h2 class="detail-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span>Project Overview</span>
+              </h2>
+              <p class="detail-paragraph">
+                Finding certified, trusted field technicians for CCTV installations, structured optical fiber splicing, and network server setups in Ethiopia has traditionally relied on informal word-of-mouth recommendations, leading to inconsistent workmanship, price gouging, and zero accountability.
+              </p>
+              <p class="detail-paragraph">
+                To solve this industry challenge, I engineered Ethio Installers, a modern web-based directory and marketplace connecting building owners, hotels, corporate IT managers, and homeowners directly with verified security and telecom installers.
+              </p>
+              <p class="detail-paragraph">
+                The platform features technician profile showcases with verified certification badges (Hikvision HCSA, Cisco CCNA), photographic portfolio case studies, instant quotation request forms, location-based sub-city filters, and a direct WhatsApp integration enabling frictionless lead conversion.
+              </p>
+
+              <!-- Business Goals -->
+              <h3 style="font-size: 1.15rem; font-weight: 700; margin-top: 1.75rem; color: var(--text-primary);">Business Goals &amp; Objectives</h3>
+              <div class="sub-cards-grid">
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon goal">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <span>Verified Installer Trust</span>
+                  </div>
+                  <div class="sub-item-desc">Implement strict admin credential verification (HCSA, CCNA, Trade Licenses) to ensure client confidence.</div>
+                </div>
+
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon goal">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <span>Rapid Quote Turnaround</span>
+                  </div>
+                  <div class="sub-item-desc">Enable clients to submit project requirements (camera count, building size, cable drops) and receive quotes in hours.</div>
+                </div>
+
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon goal">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <span>Regional Geo-Filtering</span>
+                  </div>
+                  <div class="sub-item-desc">Dynamic filtering across Addis Ababa sub-cities (Bole, Kirkos, Yeka, Nifas Silk) and regional industrial hubs.</div>
+                </div>
+
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon goal">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <span>Mobile-First Performance</span>
+                  </div>
+                  <div class="sub-item-desc">Deliver lightweight, sub-second page loads optimized for local 3G/4G mobile devices with offline caching.</div>
+                </div>
+              </div>
+
+              <!-- Challenges Overcome -->
+              <h3 style="font-size: 1.15rem; font-weight: 700; margin-top: 1.75rem; color: var(--text-primary);">Technical Challenges &amp; Solutions</h3>
+              <div class="sub-cards-grid">
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon challenge">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                    </div>
+                    <span>Image Optimization &amp; Bandwidth</span>
+                  </div>
+                  <div class="sub-item-desc">Implemented client-side WebP compression for high-res portfolio project uploads, reducing bandwidth load by 68%.</div>
+                </div>
+
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon challenge">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                    </div>
+                    <span>Direct WhatsApp Lead Routing</span>
+                  </div>
+                  <div class="sub-item-desc">Generated pre-formatted URL parameters passing project category, location, and estimate direct into technician WhatsApp chats.</div>
+                </div>
+              </div>
+            </section>
+
+            <!-- My Role & Responsibilities -->
+            <section class="detail-card-section">
+              <h2 class="detail-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <span>My Role &amp; Responsibilities</span>
+              </h2>
+              <p class="detail-paragraph">
+                I was the sole designer and full-stack developer responsible for UX wireframing, frontend engineering, database modeling, and cloud hosting configuration.
+              </p>
+
+              <ul class="responsibilities-list">
+                <li class="responsibility-item">
+                  <div class="responsibility-check">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </div>
+                  <span>Designed high-conversion mobile-first user interfaces with dark/light mode and intuitive filter toggles.</span>
+                </li>
+                <li class="responsibility-item">
+                  <div class="responsibility-check">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </div>
+                  <span>Engineered dynamic category filtering (CCTV, Structured Cabling, Fiber Splicing, IP PBX, Fire Alarm).</span>
+                </li>
+                <li class="responsibility-item">
+                  <div class="responsibility-check">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </div>
+                  <span>Built technician portfolio showcase galleries with lazy loading and lightbox modal zoom.</span>
+                </li>
+                <li class="responsibility-item">
+                  <div class="responsibility-check">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  </div>
+                  <span>Developed the quotation calculation engine matching client requirements with estimated bill of materials.</span>
+                </li>
+              </ul>
+            </section>
+
+            <!-- Key Features & Deliverables -->
+            <section class="detail-card-section">
+              <h2 class="detail-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+                <span>Key Features &amp; Deliverables</span>
+              </h2>
+
+              <div class="features-grid">
+                <div class="feature-deliverable-card">
+                  <div class="feature-deliverable-icon-wrap">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  </div>
+                  <div class="feature-deliverable-title">Verified Technician Profiles</div>
+                  <div class="feature-deliverable-desc">Comprehensive technician profile pages featuring verified license badges, years of experience, skill specializations, and verified customer reviews.</div>
+                </div>
+
+                <div class="feature-deliverable-card">
+                  <div class="feature-deliverable-icon-wrap">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                    </svg>
+                  </div>
+                  <div class="feature-deliverable-title">Instant Geo-Filter Engine</div>
+                  <div class="feature-deliverable-desc">Multi-criteria filtering by service category, city sub-district, availability status, and emergency on-call response time.</div>
+                </div>
+
+                <div class="feature-deliverable-card">
+                  <div class="feature-deliverable-icon-wrap">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                  </div>
+                  <div class="feature-deliverable-title">Direct WhatsApp &amp; Call Connect</div>
+                  <div class="feature-deliverable-desc">One-tap WhatsApp direct messaging with auto-filled project briefs for friction-free consultation and scheduling.</div>
+                </div>
+
+                <div class="feature-deliverable-card">
+                  <div class="feature-deliverable-icon-wrap">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                      <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                      <polyline points="21 15 16 10 5 21"></polyline>
+                    </svg>
+                  </div>
+                  <div class="feature-deliverable-title">Installer Portfolio Showcases</div>
+                  <div class="feature-deliverable-desc">High-resolution photographic galleries allowing technicians to showcase structured cabling, rack layouts, and camera feeds.</div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Project Gallery Section (6 Images) -->
+            <section class="detail-card-section">
+              <h2 class="detail-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                  <polyline points="21 15 16 10 5 21"></polyline>
+                </svg>
+                <span>Project Gallery &amp; Platform Views</span>
+              </h2>
+
+              <div class="project-gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-photo-card" data-gallery-item data-gallery-src="../images/projects/cctv_listing.jpg" data-gallery-title="Ethio Installers Homepage &amp; Search Portal" data-gallery-tag="Web App UI" data-gallery-caption="Main directory search portal with category filters, featured installers, and quote request modal.">
+                  <img src="../images/projects/cctv_listing.jpg" alt="Ethio Installers Search Portal" class="gallery-photo-img" loading="lazy">
+                  <div class="gallery-photo-overlay">
+                    <span class="gallery-photo-tag">Search Portal</span>
+                    <div class="gallery-photo-caption">
+                      <div class="gallery-photo-caption-title">Directory Search Portal</div>
+                      <div class="gallery-photo-caption-text">Interactive filtering and installer matching.</div>
+                    </div>
+                  </div>
+                  <div class="gallery-zoom-badge">🔍</div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-photo-card" data-gallery-item data-gallery-src="../images/projects/cctv.jpg" data-gallery-title="Verified CCTV Installation Case Study" data-gallery-tag="Portfolio" data-gallery-caption="Technician portfolio showcase detailing commercial hotel CCTV surveillance installation.">
+                  <img src="../images/projects/cctv.jpg" alt="CCTV Installation Showcase" class="gallery-photo-img" loading="lazy">
+                  <div class="gallery-photo-overlay">
+                    <span class="gallery-photo-tag">Portfolio Showcase</span>
+                    <div class="gallery-photo-caption">
+                      <div class="gallery-photo-caption-title">CCTV Project Showcase</div>
+                      <div class="gallery-photo-caption-text">Verified installer portfolio case study.</div>
+                    </div>
+                  </div>
+                  <div class="gallery-zoom-badge">🔍</div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-photo-card" data-gallery-item data-gallery-src="../images/projects/electro_ecommerce.jpg" data-gallery-title="Integrated Security Hardware Store" data-gallery-tag="E-Commerce" data-gallery-caption="Hardware procurement module enabling technicians to buy genuine Hikvision and Cisco equipment.">
+                  <img src="../images/projects/electro_ecommerce.jpg" alt="Integrated Hardware Store" class="gallery-photo-img" loading="lazy">
+                  <div class="gallery-photo-overlay">
+                    <span class="gallery-photo-tag">Hardware Store</span>
+                    <div class="gallery-photo-caption">
+                      <div class="gallery-photo-caption-title">Equipment Procurement</div>
+                      <div class="gallery-photo-caption-text">Integrated store for surveillance and networking gear.</div>
+                    </div>
+                  </div>
+                  <div class="gallery-zoom-badge">🔍</div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-photo-card" data-gallery-item data-gallery-src="../images/projects/web.jpg" data-gallery-title="Technician Dashboard &amp; Lead Manager" data-gallery-tag="Dashboard" data-gallery-caption="Back-office portal where installers manage inbound quote requests, client reviews, and portfolio uploads.">
+                  <img src="../images/projects/web.jpg" alt="Technician Dashboard" class="gallery-photo-img" loading="lazy">
+                  <div class="gallery-photo-overlay">
+                    <span class="gallery-photo-tag">Technician Portal</span>
+                    <div class="gallery-photo-caption">
+                      <div class="gallery-photo-caption-title">Inbound Lead Dashboard</div>
+                      <div class="gallery-photo-caption-text">Lead tracking, quote responses, and review monitoring.</div>
+                    </div>
+                  </div>
+                  <div class="gallery-zoom-badge">🔍</div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-photo-card" data-gallery-item data-gallery-src="../images/projects/datacenter.jpg" data-gallery-title="Enterprise Cabling Case Studies" data-gallery-tag="Structured Cabling" data-gallery-caption="Certified network technician portfolio showcasing 42U server racks and fiber optic terminations.">
+                  <img src="../images/projects/datacenter.jpg" alt="Enterprise Cabling Showcase" class="gallery-photo-img" loading="lazy">
+                  <div class="gallery-photo-overlay">
+                    <span class="gallery-photo-tag">Cabling Showcase</span>
+                    <div class="gallery-photo-caption">
+                      <div class="gallery-photo-caption-title">Server Rack Showcase</div>
+                      <div class="gallery-photo-caption-text">Verified installer structured cabling case study.</div>
+                    </div>
+                  </div>
+                  <div class="gallery-zoom-badge">🔍</div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-photo-card" data-gallery-item data-gallery-src="../images/projects/pharmacy_erp.jpg" data-gallery-title="Enterprise Client Dashboard" data-gallery-tag="Client Portal" data-gallery-caption="Enterprise portal for corporate clients managing multi-site technician maintenance contracts.">
+                  <img src="../images/projects/pharmacy_erp.jpg" alt="Client Portal" class="gallery-photo-img" loading="lazy">
+                  <div class="gallery-photo-overlay">
+                    <span class="gallery-photo-tag">Client Portal</span>
+                    <div class="gallery-photo-caption">
+                      <div class="gallery-photo-caption-title">Corporate Multi-Site Portal</div>
+                      <div class="gallery-photo-caption-text">Enterprise multi-branch SLA maintenance management.</div>
+                    </div>
+                  </div>
+                  <div class="gallery-zoom-badge">🔍</div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Measurable Results & Outcomes -->
+            <section class="detail-card-section">
+              <h2 class="detail-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span>Measurable Results &amp; Platform Impact</span>
+              </h2>
+
+              <div class="results-metrics-grid">
+                <div class="result-metric-card">
+                  <div class="result-metric-stat">120+</div>
+                  <div class="result-metric-title">Verified Installers</div>
+                  <div class="result-metric-desc">Registered and credential-verified CCTV, network, and fiber optic engineers across Ethiopia.</div>
+                </div>
+
+                <div class="result-metric-card">
+                  <div class="result-metric-stat">&lt; 3 hrs</div>
+                  <div class="result-metric-title">Average Quote Time</div>
+                  <div class="result-metric-desc">Clients receive qualified project bids within 3 hours via automated notification alerts.</div>
+                </div>
+
+                <div class="result-metric-card">
+                  <div class="result-metric-stat">98%</div>
+                  <div class="result-metric-title">Mobile PageSpeed</div>
+                  <div class="result-metric-desc">Ultra-optimized client assets delivering sub-second load times on Ethiopian mobile cellular networks.</div>
+                </div>
+
+                <div class="result-metric-card">
+                  <div class="result-metric-stat">500+</div>
+                  <div class="result-metric-title">Projects Matched</div>
+                  <div class="result-metric-desc">Successfully completed commercial and residential security and cabling installations.</div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- Sidebar Column -->
+          <div class="project-sidebar-column">
+            <!-- Technologies Badge Cloud -->
+            <div class="detail-card-section">
+              <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem;">Tech Stack Badges</h3>
+              <div class="tech-badges-wrap">
+                <span class="tech-badge-item">JavaScript (ES6+)</span>
+                <span class="tech-badge-item">PHP 8.2 Backend</span>
+                <span class="tech-badge-item">MySQL Relational DB</span>
+                <span class="tech-badge-item">Tailwind CSS</span>
+                <span class="tech-badge-item">RESTful JSON APIs</span>
+                <span class="tech-badge-item">WhatsApp Click API</span>
+                <span class="tech-badge-item">WebP Image Pipeline</span>
+                <span class="tech-badge-item">PWA / Service Worker</span>
+                <span class="tech-badge-item">Nginx HTTPS Proxy</span>
+              </div>
+            </div>
+
+            <!-- Project Quick Info Card -->
+            <div class="detail-card-section" style="border-left: 3px solid var(--accent-primary);">
+              <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem;">App Overview</h3>
+              <div style="display: flex; flex-direction: column; gap: 0.65rem; font-size: 0.9rem; color: var(--text-secondary);">
+                <div><strong>Category:</strong> Service Directory &amp; Marketplace</div>
+                <div><strong>Coverage:</strong> Addis Ababa, Adama, Hawassa, Dire Dawa</div>
+                <div><strong>Target Users:</strong> Installers, Contractors, Businesses</div>
+                <div><strong>Integrations:</strong> WhatsApp, Telegram Bot, SMS Alerts</div>
+                <div><strong>Status:</strong> Live Production</div>
+              </div>
+            </div>
+
+            <!-- Direct Contact CTA in Sidebar -->
+            <div class="detail-card-section" style="background: linear-gradient(145deg, var(--bg-card), var(--bg-hover)); text-align: center;">
+              <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">Need a Web App?</h3>
+              <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                Looking for a custom directory, booking platform, or e-commerce marketplace web app?
+              </p>
+              <a href="https://wa.me/251911928092?text=Hello%20Amir,%20I%20saw%20your%20Ethio%20Installers%20web%20app%20case%20study%20and%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%; justify-content: center;">
+                <span>Chat on WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Projects Section -->
+    <section class="related-projects-section">
+      <div class="container">
+        <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--text-primary); text-align: center;">Explore Related Projects</h2>
+        <p style="text-align: center; color: var(--text-secondary); max-width: 600px; margin: 0.5rem auto 0;">
+          Discover more enterprise IT infrastructure, surveillance, and software deployments.
+        </p>
+
+        <div class="related-projects-grid">
+          <!-- Related Project 1 -->
+          <div class="related-project-card">
+            <div class="related-project-img-wrap">
+              <img src="../images/projects/electro_ecommerce.jpg" alt="Electro IT E-Commerce Platform" class="related-project-img" loading="lazy">
+            </div>
+            <div class="related-project-body">
+              <span class="related-project-cat">E-Commerce &amp; Web</span>
+              <h3 class="related-project-title">Electro IT Services Website &amp; Store</h3>
+              <p class="related-project-desc">Corporate digital store for IT hardware shopping and on-demand technical service bookings.</p>
+              <a href="electro-it-ecommerce.html" class="btn btn-outline btn-sm" style="align-self: flex-start;">
+                <span>View Project</span>
+                <img src="../icons/external-link.svg" alt="" width="14" height="14">
+              </a>
+            </div>
+          </div>
+
+          <!-- Related Project 2 -->
+          <div class="related-project-card">
+            <div class="related-project-img-wrap">
+              <img src="../images/projects/cctv.jpg" alt="CCTV IP Surveillance" class="related-project-img" loading="lazy">
+            </div>
+            <div class="related-project-body">
+              <span class="related-project-cat">Surveillance</span>
+              <h3 class="related-project-title">Multi-Floor CCTV IP Surveillance Network</h3>
+              <p class="related-project-desc">High-security centralized IP camera deployment with 80+ Hikvision cameras, PoE switches, and NVR storage.</p>
+              <a href="cctv-installation.html" class="btn btn-outline btn-sm" style="align-self: flex-start;">
+                <span>View Project</span>
+                <img src="../icons/external-link.svg" alt="" width="14" height="14">
+              </a>
+            </div>
+          </div>
+
+          <!-- Related Project 3 -->
+          <div class="related-project-card">
+            <div class="related-project-img-wrap">
+              <img src="../images/projects/hotel_bot.jpg" alt="Hotel Booking Website" class="related-project-img" loading="lazy">
+            </div>
+            <div class="related-project-body">
+              <span class="related-project-cat">Web Platform</span>
+              <h3 class="related-project-title">Sunland International Hotel Booking Website</h3>
+              <p class="related-project-desc">Automated online reservation platform and room booking portal for luxury hotel suites.</p>
+              <a href="hotel-booking-website.html" class="btn btn-outline btn-sm" style="align-self: flex-start;">
+                <span>View Project</span>
+                <img src="../icons/external-link.svg" alt="" width="14" height="14">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="project-cta-section">
+      <div class="container">
+        <div class="project-cta-card">
+          <span class="project-cta-tag">Build Your Web App</span>
+          <h2 class="project-cta-title">Looking to Build a Directory or Marketplace App?</h2>
+          <p class="project-cta-desc">
+            Let's build a fast, responsive, and reliable web application tailored to your business model with seamless payment and WhatsApp integrations.
+          </p>
+          <div class="project-cta-buttons">
+            <a href="../index.html#contact" class="btn btn-primary">
+              <span>Contact Me</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="https://wa.me/251911928092?text=Hello%20Amir,%20I%20am%20interested%20in%20building%20a%20web%20app%20or%20marketplace." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <span>WhatsApp Direct (+251 911 928092)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Lightbox Viewer Dialog -->
+  <div class="diagram-lightbox" id="diagramLightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" aria-hidden="true">
+    <div class="diagram-lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="diagram-lightbox-container">
+      <div class="diagram-lightbox-header">
+        <div class="diagram-lightbox-header-info">
+          <span class="diagram-lightbox-badge" id="lightboxTag">Web App Asset</span>
+          <h3 class="diagram-lightbox-title" id="lightboxTitle">Project Asset</h3>
+          <span class="diagram-lightbox-counter" id="lightboxCounter">1 / 6</span>
+        </div>
+        <div class="diagram-lightbox-actions">
+          <div class="diagram-lightbox-zoom-controls">
+            <button type="button" class="lightbox-tool-btn" id="lightboxZoomOut" aria-label="Zoom Out" title="Zoom Out (-)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </button>
+            <span class="lightbox-zoom-level" id="lightboxZoomLevel">100%</span>
+            <button type="button" class="lightbox-tool-btn" id="lightboxZoomIn" aria-label="Zoom In" title="Zoom In (+)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            </button>
+            <button type="button" class="lightbox-tool-btn" id="lightboxZoomReset" aria-label="Reset Zoom" title="Reset Zoom (0)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><polyline points="3 3 3 8 8 8"></polyline></svg>
+            </button>
+          </div>
+          <button type="button" class="diagram-lightbox-close" id="lightboxCloseBtn" aria-label="Close lightbox viewer">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="diagram-lightbox-body" id="lightboxViewport">
+        <button type="button" class="diagram-lightbox-nav prev" id="lightboxPrevBtn" aria-label="Previous image">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <div class="diagram-lightbox-canvas" id="lightboxCanvas">
+          <img src="../images/projects/cctv_listing.jpg" alt="Ethio Installers Search Portal" id="lightboxImg" class="diagram-lightbox-image">
+        </div>
+
+        <button type="button" class="diagram-lightbox-nav next" id="lightboxNextBtn" aria-label="Next image">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+
+      <div class="diagram-lightbox-footer">
+        <p class="diagram-lightbox-caption" id="lightboxCaption">Ethio Installers directory search portal and quotation calculator.</p>
+        <div class="diagram-lightbox-thumbnails" id="lightboxThumbnails"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>Amir Kassim</h4>
+          <p>Network Administrator &amp; Systems Engineer • Addis Ababa, Ethiopia</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#skills">Skills</a></li>
+          <li><a href="../index.html#experience">Experience</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../index.html#education">Education</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Amir Kassim. All rights reserved. Built with pure HTML, CSS, and JS (Offline Ready).
+        </div>
+        <button class="back-to-top-btn" id="back-to-top" aria-label="Back to top of page">
+          <span>▲ Back to Top</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Detail Controller JS -->
+  <script src="../js/project-detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+/* ==========================================================================
+   Amir Kassim Portfolio - Responsive Stylesheet (responsive.css)
+   ========================================================================== */
+
+/* Laptop Breakpoint (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .project-slide-card {
+    padding: 20px;
+  }
+}
+
+/* Tablet Breakpoint (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .carousel-side-nav-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .carousel-side-nav-btn.prev {
+    left: -12px;
+  }
+
+  .carousel-side-nav-btn.next {
+    right: -12px;
+  }
+}
+
+/* Mobile Breakpoint (max-width: 767px) */
+@media (max-width: 767px) {
+  .projects-control-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+  }
+
+  .slider-nav-wrapper {
+    align-self: center;
+  }
+
+  .project-slide-card {
+    padding: 18px 16px;
+    border-radius: 18px;
+  }
+
+  .carousel-side-nav-btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  .carousel-side-nav-btn.prev {
+    left: 4px;
+  }
+
+  .carousel-side-nav-btn.next {
+    right: 4px;
+  }
+
+  .project-modal {
+    padding: 12px;
+  }
+
+  .project-modal-dialog {
+    max-height: 94vh;
+  }
+
+  .project-modal-media {
+    height: 180px;
+  }
+
+  .project-modal-body {
+    padding: 20px 16px;
+  }
+
+  .project-modal-gallery-section {
+    padding: 14px 12px;
+    margin: 18px 0;
+  }
+
+  .modal-gallery-stage {
+    height: 210px;
+  }
+
+  .modal-gallery-arrow {
+    width: 32px;
+    height: 32px;
+  }
+
+  .modal-gallery-thumb-btn {
+    flex: 0 0 80px;
+    height: 54px;
+  }
+
+  .project-modal-actions {
+    flex-direction: column;
+  }
+
+  .project-modal-actions .btn {
+    width: 100%;
+  }
+  .section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-surface);
+    border-bottom: 1px solid var(--border-subtle);
+    flex-direction: column;
+    padding: 20px 24px;
+    gap: 16px;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .nav-links.is-open {
+    display: flex;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .hero-meta-chips, .hero-cta-group {
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 2.25rem;
+  }
+
+  .hero-role-banner {
+    justify-content: center;
+    font-size: 1.125rem;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile-image-wrapper {
+    width: 270px;
+    height: 270px;
+  }
+
+  .profile-ambient-glow {
+    width: 270px;
+    height: 270px;
+  }
+
+  .profile-tech-orbit {
+    width: 300px;
+    height: 300px;
+  }
+
+  .profile-floating-badge.badge-bottom-right {
+    bottom: -12px;
+    right: -8px;
+    padding: 8px 14px;
+    gap: 8px;
+  }
+
+  .profile-floating-badge.badge-top-left {
+    top: -12px;
+    left: -8px;
+    padding: 6px 12px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .about-highlights-list {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-side-nav-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-side-nav-btn.prev {
+    left: 2px;
+  }
+
+  .carousel-side-nav-btn.next {
+    right: 2px;
+  }
+
+  .edu-cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-container {
+    padding: 24px 20px;
+  }
+
+  .footer-grid {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
+
+/* Small Mobile Breakpoint (max-width: 480px) */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.875rem;
+  }
+
+  .hero-role-banner {
+    font-size: 1rem;
+    gap: 6px;
+    min-height: 2rem;
+  }
+
+  .hero-role-static {
+    font-size: 0.875rem;
+    padding: 2px 8px;
+  }
+
+  .typing-text {
+    font-size: 1.05rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .quick-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-image-wrapper {
+    width: 220px;
+    height: 220px;
+  }
+
+  .profile-floating-badge {
+    position: static;
+    margin-top: 16px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/* Print Stylesheet for Resume/Portfolio export */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .header, .footer, .filter-bar, .theme-toggle-btn, .mobile-menu-btn, .back-to-top-btn, .contact-form-container, .offline-banner {
+    display: none !important;
+  }
+
+  .section {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .timeline::before {
+    display: none;
+  }
+
+  .timeline-item {
+    padding-left: 0;
+  }
+
+  .card, .skill-card, .project-card, .timeline-content, .edu-card, .cert-card {
+    box-shadow: none !important;
+    border: 1px solid #cccccc !important;
+    break-inside: avoid;
+  }
+}

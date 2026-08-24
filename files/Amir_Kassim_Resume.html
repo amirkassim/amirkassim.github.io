@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amir Kassim - Resume / Curriculum Vitae</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --secondary: #0d9488;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --bg: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: #f3f4f6;
+      line-height: 1.5;
+      padding: 24px 16px;
+    }
+    .resume-sheet {
+      max-width: 850px;
+      margin: 0 auto;
+      background: var(--bg);
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    }
+    .header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .name-title h1 {
+      font-size: 30px;
+      letter-spacing: 1px;
+      color: var(--primary);
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+    .name-title h2 {
+      font-size: 16px;
+      color: var(--secondary);
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+    .contact-info {
+      font-size: 13px;
+      color: var(--muted);
+      text-align: right;
+    }
+    .contact-info div { margin-bottom: 3px; }
+    .contact-info a { color: var(--primary); text-decoration: none; }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 32px;
+    }
+    section { margin-bottom: 24px; }
+    h3.section-title {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--primary);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+      margin-bottom: 14px;
+      font-weight: 700;
+    }
+    .item { margin-bottom: 16px; }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+      font-size: 14px;
+      color: #111827;
+    }
+    .item-sub {
+      font-size: 13px;
+      color: var(--secondary);
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    .item-desc {
+      font-size: 13px;
+      color: var(--muted);
+    }
+    ul.bullet-list {
+      padding-left: 18px;
+      margin-top: 4px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    ul.bullet-list li { margin-bottom: 3px; }
+    .badge-pill {
+      display: inline-block;
+      background: #eff6ff;
+      color: #1e40af;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
+      margin: 2px;
+      border: 1px solid #dbeafe;
+    }
+    .no-print {
+      display: flex;
+      gap: 12px;
+      max-width: 850px;
+      margin: 0 auto 16px auto;
+    }
+    .btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    @media print {
+      body { background: white; padding: 0; }
+      .resume-sheet { box-shadow: none; padding: 0; }
+      .no-print { display: none !important; }
+    }
+    @media (max-width: 680px) {
+      .grid-2 { grid-template-columns: 1fr; }
+      .contact-info { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <div class="no-print">
+    <button class="btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+    <a class="btn" href="../index.html" style="background:#4b5563;">← Back to Portfolio</a>
+  </div>
+
+  <div class="resume-sheet">
+    <header class="header">
+      <div class="name-title">
+        <h1>Amir Kassim</h1>
+        <h2>Network Administrator &amp; Systems Engineer</h2>
+      </div>
+      <div class="contact-info">
+        <div>📧 <a href="mailto:amirkassim00@gmail.com">amirkassim00@gmail.com</a></div>
+        <div>📞 +251 913 869337</div>
+        <div>🌐 LinkedIn: <a href="https://linkedin.com/in/amir-kassim" target="_blank">amir-kassim</a></div>
+        <div>📍 Addis Ababa, Ethiopia</div>
+      </div>
+    </header>
+
+    <div class="grid-2">
+      <div>
+        <section>
+          <h3 class="section-title">Professional Summary</h3>
+          <p class="item-desc">
+            Computer Science graduate with distinction, equipped with a solid foundation in technology, systems infrastructure, and IT service management. Extensive experience in computer networking, data center deployment, CCTV IP surveillance installation, and IP phone telephony. Adept in managing and optimizing complex infrastructures alongside a strong background in web development (JavaScript, PHP) and ERP systems.
+          </p>
+        </section>
+
+        <section>
+          <h3 class="section-title">Work Experience</h3>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Network Engineer</span>
+              <span>Oct 2019 – Aug 2024</span>
+            </div>
+            <div class="item-sub">Electro Engineering (www.electroengi.com)</div>
+            <ul class="bullet-list">
+              <li>Built and commissioned enterprise Data Center infrastructure and cabling.</li>
+              <li>Installed, configured, and managed CCTV IP Cameras and centralized NVR systems.</li>
+              <li>Configured enterprise Wi-Fi Access Points, Managed Switches, and Cisco Routers.</li>
+              <li>Deployed and maintained IP Phone (VoIP PBX) and hotel TV distribution systems.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>IT Support / System Admin</span>
+              <span>May 2018 – Oct 2023</span>
+            </div>
+            <div class="item-sub">Empire Addis International Hotel (empireaddishotel.com)</div>
+            <ul class="bullet-list">
+              <li>Managed hotel-wide LAN/WLAN network, Cisco switches, and security routers.</li>
+              <li>Administered CNET Hospitality ERP system database, POS, and front-desk workstations.</li>
+              <li>Developed and managed hotel web properties and digital touchpoints.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>IT Manager / Network Administrator</span>
+              <span>July 2017 – May 2022</span>
+            </div>
+            <div class="item-sub">Kenenisa Hotel (kenenisahotel.com)</div>
+            <ul class="bullet-list">
+              <li>Managed server infrastructure, backups, and user access permissions.</li>
+              <li>Installed CCTV IP camera security network across hotel premises.</li>
+              <li>Configured and maintained CNET ERP and Wi-Fi access controllers.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>IT Administrator</span>
+              <span>Nov 2019 – July 2021</span>
+            </div>
+            <div class="item-sub">Sunspot Hotel (www.sunspothotels.com)</div>
+            <ul class="bullet-list">
+              <li>Administered hotel network, Wi-Fi APs, switches, and CNET ERP platform.</li>
+              <li>Handled hotel phone PBX and multi-room TV systems.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>System Administrator</span>
+              <span>Dec 2018 – Aug 2021</span>
+            </div>
+            <div class="item-sub">ABC Car Rent (abccarrent.com)</div>
+            <ul class="bullet-list">
+              <li>Managed Car Rental ERP system, office LAN, CCTV security, and social media.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Corporate IT Manager</span>
+              <span>June 2020 – Dec 2020</span>
+            </div>
+            <div class="item-sub">Topsun General Trading (www.topsonplc.com)</div>
+            <ul class="bullet-list">
+              <li>Provided comprehensive IT support across company branches and configured LAN systems.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3 class="section-title">Key Projects &amp; Software Systems</h3>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Pharmacy Enterprise ERP &amp; POS</span>
+              <span>2021 – 2024</span>
+            </div>
+            <div class="item-desc">Architected full-lifecycle Pharmacy ERP with drug batch expiry tracking, barcode checkout, prescription management, multi-branch inventory sync, and SQL database reporting.</div>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Sunland Hotel Booking Telegram Bot</span>
+              <span>2022 – 2024</span>
+            </div>
+            <div class="item-desc">Engineered interactive Telegram Bot for Sunland International Hotel enabling automated room availability queries, amenity galleries, rate calculation, and instant booking vouchers.</div>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>CCTV Installers Directory Web App</span>
+              <span>2023 – 2024</span>
+            </div>
+            <div class="item-desc">Built technician directory listing web platform connecting clients with verified CCTV security installers, featuring custom quotation requests and technician portfolios.</div>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Electro IT Services E-Commerce Platform</span>
+              <span>2023 – 2024</span>
+            </div>
+            <div class="item-desc">Developed e-commerce website for Electro IT Services PLC with categorized networking/CCTV hardware shop, shopping cart, and on-demand IT service booking.</div>
+          </div>
+        </section>
+      </div>
+
+      <div>
+        <section>
+          <h3 class="section-title">Education</h3>
+
+          <div class="item">
+            <div class="item-header">
+              <span>B.Sc. in Computer Science</span>
+            </div>
+            <div class="item-sub">MicroLink IT College (4 Years)</div>
+            <div class="item-desc">Class of 2014 • <strong>Graduated with Distinction</strong></div>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>B.Sc. in Applied Physics</span>
+            </div>
+            <div class="item-sub">Bahir Dar University (3 Years)</div>
+            <div class="item-desc">Class of 2012</div>
+          </div>
+
+          <div class="item">
+            <div class="item-header">
+              <span>Hardware &amp; Networking Level 1 - 3</span>
+            </div>
+            <div class="item-sub">COC Center (2017)</div>
+          </div>
+        </section>
+
+        <section>
+          <h3 class="section-title">Certifications</h3>
+          <div class="item">
+            <div class="item-header"><span>Hikvision HCSA</span></div>
+            <div class="item-sub">HCSA-Maintenance (Cert # HCSA-072024-0251-04-1391)</div>
+          </div>
+          <div class="item">
+            <div class="item-header"><span>Hikvision CGSA</span></div>
+            <div class="item-sub">CGSA-CCTV Specialist</div>
+          </div>
+          <div class="item">
+            <div class="item-header"><span>Cisco CCNA Fundamentals</span></div>
+            <div class="item-sub">Udemy Verified</div>
+          </div>
+          <div class="item">
+            <div class="item-header"><span>Windows Server 2012/2016 Admin</span></div>
+            <div class="item-sub">Udemy Verified</div>
+          </div>
+          <div class="item">
+            <div class="item-header"><span>Network Security Essentials</span></div>
+            <div class="item-sub">Udemy Verified</div>
+          </div>
+        </section>
+
+        <section>
+          <h3 class="section-title">Technical Skills</h3>
+          <div>
+            <span class="badge-pill">Cisco Routers &amp; Switches</span>
+            <span class="badge-pill">TCP/IP, LAN/WAN</span>
+            <span class="badge-pill">Data Center Cabling</span>
+            <span class="badge-pill">Hikvision CCTV IP</span>
+            <span class="badge-pill">NVR / Video Analytics</span>
+            <span class="badge-pill">VoIP IP PBX Telephony</span>
+            <span class="badge-pill">Windows Server</span>
+            <span class="badge-pill">CNET Hospitality ERP</span>
+            <span class="badge-pill">JavaScript &amp; PHP</span>
+            <span class="badge-pill">HTML5 &amp; CSS3</span>
+            <span class="badge-pill">Wi-Fi Controller APs</span>
+            <span class="badge-pill">Hardware Diagnostics</span>
+          </div>
+        </section>
+
+        <section>
+          <h3 class="section-title">Personal Details</h3>
+          <div class="item-desc">
+            <div><strong>Nationality:</strong> Ethiopian</div>
+            <div><strong>Languages:</strong> Amharic, English</div>
+            <div><strong>Location:</strong> Addis Ababa, Ethiopia</div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

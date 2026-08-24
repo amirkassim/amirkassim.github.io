@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Data Center &amp; Structured Cabling | Amir Kassim - Case Study</title>
+  <meta name="description" content="Design and implementation of 42U server data centers, fiber optic backbones, horizontal Cat6A cabling, UPS power redundancy, and environmental monitoring.">
+  <link rel="icon" type="image/svg+xml" href="../icons/server.svg">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/animation.css">
+  <link rel="stylesheet" href="../css/project-detail.css">
+</head>
+<body>
+  <!-- Offline Alert Banner -->
+  <div class="offline-banner" id="offline-banner" role="status" aria-live="polite"></div>
+
+  <!-- Header Navigation -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="../index.html" class="brand" aria-label="Amir Kassim Portfolio Home">
+        <div class="brand-avatar-wrap">
+          <img src="../images/profile.jpg" alt="Amir Kassim" class="brand-avatar">
+          <span class="status-indicator" title="Available for hire"></span>
+        </div>
+        <div class="brand-info">
+          <span class="brand-name">Amir Kassim</span>
+          <span class="brand-title">Network &amp; Systems Engineer</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="main-nav" aria-label="Main navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="../index.html#about" class="nav-link">About</a></li>
+          <li><a href="../index.html#skills" class="nav-link">Skills</a></li>
+          <li><a href="../index.html#experience" class="nav-link">Experience</a></li>
+          <li><a href="../index.html#projects" class="nav-link active">Projects</a></li>
+          <li><a href="../index.html#education" class="nav-link">Education</a></li>
+          <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="offline-badge" id="offline-badge" title="App functions 100% offline">
+          <span class="offline-dot"></span>
+          <span class="offline-text" id="offline-status-text">Online</span>
+        </div>
+
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle dark and light theme" title="Toggle theme">
+          <img src="../icons/moon.svg" alt="Switch to Dark Mode" id="theme-toggle-icon" width="18" height="18">
+        </button>
+
+        <a href="../files/Amir_Kassim_Resume.html" class="btn btn-outline btn-sm header-resume-btn" download="Amir_Kassim_Resume.html" target="_blank" rel="noopener">
+          <img src="../icons/download.svg" alt="" width="14" height="14">
+          <span>CV</span>
+        </a>
+
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Project Hero Section -->
+    <section class="project-hero-section">
+      <div class="container">
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <ol class="breadcrumb-list">
+            <li class="breadcrumb-item">
+              <a href="../index.html" class="breadcrumb-link">Home</a>
+              <span class="breadcrumb-separator">/</span>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="../index.html#projects" class="breadcrumb-link">Projects</a>
+              <span class="breadcrumb-separator">/</span>
+            </li>
+            <li class="breadcrumb-item">
+              <span class="breadcrumb-current" aria-current="page">Data Center &amp; Structured Cabling</span>
+            </li>
+          </ol>
+        </nav>
+
+        <!-- Back to Portfolio Button -->
+        <a href="../index.html#projects" class="back-to-portfolio-btn" id="btn-back-portfolio">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Back to Projects</span>
+        </a>
+
+        <div class="project-hero-header">
+          <div class="project-hero-badges">
+            <span class="project-category-badge badge-networking">Infrastructure &amp; Cabling</span>
+            <div class="project-status-pill">
+              <span class="status-dot-pulse"></span>
+              <span>Commissioned &amp; Tier-II Standard</span>
+            </div>
+          </div>
+          <h1 class="project-hero-title">Enterprise Data Center &amp; Structured Fiber/Copper Cabling</h1>
+          <p class="detail-paragraph" style="max-width: 860px; font-size: 1.15rem;">
+            Turnkey physical infrastructure deployment featuring 42U heavy-duty server cabinets, 500+ Cat6A horizontal drops, OM3 multimode fiber vertical risers, redundant online UPS battery arrays, precision cooling, and Fluke DTX-certified cable testing.
+          </p>
+
+          <!-- Hero Meta Grid -->
+          <div class="project-meta-grid">
+            <div class="project-meta-item">
+              <span class="project-meta-label">Client / Organization</span>
+              <span class="project-meta-value">
+                <img src="../icons/briefcase.svg" alt="" width="16" height="16">
+                Sunland Hotel &amp; Commercial Centers
+              </span>
+            </div>
+            <div class="project-meta-item">
+              <span class="project-meta-label">Timeline / Period</span>
+              <span class="project-meta-value">2023 – 2024</span>
+            </div>
+            <div class="project-meta-item">
+              <span class="project-meta-label">Standards</span>
+              <span class="project-meta-value">TIA/EIA-568-C.2, ISO/IEC 11801</span>
+            </div>
+            <div class="project-meta-item">
+              <span class="project-meta-label">My Role</span>
+              <span class="project-meta-value">Lead Cabling &amp; Data Center Architect</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Large Hero Showcase Image -->
+        <div class="project-hero-showcase">
+          <img src="../images/projects/datacenter.jpg" alt="Enterprise Data Center 42U Server Rack" class="project-hero-img" id="heroMainImg">
+          <div class="project-hero-overlay">
+            <div>
+              <div class="project-hero-caption-title">Main Server Room — 42U Enclosure &amp; Cable Dressing</div>
+              <div class="project-hero-caption-sub">Color-coded Cat6A patch cords, brush management panels, fiber optical distribution, and dual UPS battery systems</div>
+            </div>
+            <button type="button" class="project-hero-zoom-btn" id="heroZoomBtn" aria-label="Open fullscreen gallery viewer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <polyline points="9 21 3 21 3 15"></polyline>
+                <line x1="21" y1="3" x2="14" y2="10"></line>
+                <line x1="3" y1="21" x2="10" y2="14"></line>
+              </svg>
+              <span>View Full Gallery (6 Images)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="project-content-grid">
+          <div class="project-main-column">
+            <!-- Project Overview Section -->
+            <section class="detail-card-section">
+              <h2 class="detail-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span>Project Overview</span>
+              </h2>
+              <p class="detail-paragraph">
+                High-performance enterprise networking relies fundamentally on the quality, reliability, and precision of its physical layer. For Sunland International Hotel and accompanying commercial facilities, the challenge was to engineer a clean, scalable, and standardized cabling infrastructure that eliminates packet loss, reduces latency, and supports 10-Gigabit backbone throughput for the next 15 years.
+              </p>
+              <p class="detail-paragraph">
+                I supervised and executed the complete physical plant engineering, establishing the Main Distribution Frame (MDF) server room and Intermediate Distribution Frames (IDFs) on every accommodation level. Over 500 Cat6A copper endpoints and OM3 10GbE multi-mode fiber optic backbone runs were terminated, labeled with ANSI/TIA-606-B standard nomenclature, and tested using Fluke CableAnalyzers.
+              </p>
+              <p class="detail-paragraph">
+                The facility incorporates dual APC Smart-UPS online power units, automated environmental temperature/humidity sensors with SMS triggers, overhead wire mesh cable trays, and grounded copper equipotential bonding bars.
+              </p>
+
+              <!-- Business Goals -->
+              <h3 style="font-size: 1.15rem; font-weight: 700; margin-top: 1.75rem; color: var(--text-primary);">Key Engineering Objectives</h3>
+              <div class="sub-cards-grid">
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon goal">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <span>10G Fiber Backbone</span>
+                  </div>
+                  <div class="sub-item-desc">OM3 multimode fiber connecting MDF core switches to all floor IDFs with 10Gbps line rate capacity.</div>
+                </div>
+
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon goal">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <span>Fluke Certified Terminations</span>
+                  </div>
+                  <div class="sub-item-desc">100% pass rate across all 500+ copper drops for NEXT, return loss, and wiremap attenuation standards.</div>
+                </div>
+
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon goal">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <span>Clean Aesthetic Cable Dressing</span>
+                  </div>
+                  <div class="sub-item-desc">Color-coded patch leads with Velcro cable binding ensuring clear port visibility and easy troubleshooting.</div>
+                </div>
+
+                <div class="sub-item-card">
+                  <div class="sub-item-header">
+                    <div class="sub-item-icon goal">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <span>Power Resilience &amp; Grounding</span>
+                  </div>
+                  <div class="sub-item-desc">Dual APC Smart-UPS battery backups providing 4 hours of emergency power runtime with generator auto-transfer.</div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Measurable Results -->
+            <section class="detail-card-section">
+              <h2 class="detail-section-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span>Measurable Results &amp; Specifications</span>
+              </h2>
+
+              <div class="results-metrics-grid">
+                <div class="result-metric-card">
+                  <div class="result-metric-stat">500+</div>
+                  <div class="result-metric-title">Cat6A Drops Certified</div>
+                  <div class="result-metric-desc">Individually numbered, labeled, and tested network points delivering 1Gbps/10Gbps throughput.</div>
+                </div>
+
+                <div class="result-metric-card">
+                  <div class="result-metric-stat">10 Gbps</div>
+                  <div class="result-metric-title">Fiber Backbone Speed</div>
+                  <div class="result-metric-desc">High-speed optical links ensuring zero congestion across guest floors and data center nodes.</div>
+                </div>
+
+                <div class="result-metric-card">
+                  <div class="result-metric-stat">0 ms</div>
+                  <div class="result-metric-title">UPS Cutover Time</div>
+                  <div class="result-metric-desc">Double-conversion online UPS topology with zero transfer delay during municipal power flickers.</div>
+                </div>
+
+                <div class="result-metric-card">
+                  <div class="result-metric-stat">100%</div>
+                  <div class="result-metric-title">TIA-606-B Compliance</div>
+                  <div class="result-metric-desc">Complete port labeling and CAD documentation provided to on-site facility managers.</div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- Sidebar Column -->
+          <div class="project-sidebar-column">
+            <!-- Tech Badges -->
+            <div class="detail-card-section">
+              <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem;">Hardware &amp; Standards</h3>
+              <div class="tech-badges-wrap">
+                <span class="tech-badge-item">42U Server Racks</span>
+                <span class="tech-badge-item">Cat6A STP / UTP</span>
+                <span class="tech-badge-item">OM3 Multimode Fiber</span>
+                <span class="tech-badge-item">APC Smart-UPS 6kVA</span>
+                <span class="tech-badge-item">Patch Panels 48-Port</span>
+                <span class="tech-badge-item">Fluke DTX-1800 Tester</span>
+                <span class="tech-badge-item">TIA/EIA-568-C.2</span>
+                <span class="tech-badge-item">Fiber Fusion Splicing</span>
+                <span class="tech-badge-item">Overhead Cable Trays</span>
+              </div>
+            </div>
+
+            <!-- Direct Contact CTA in Sidebar -->
+            <div class="detail-card-section" style="background: linear-gradient(145deg, var(--bg-card), var(--bg-hover)); text-align: center;">
+              <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">Need Cabling or Data Center Setup?</h3>
+              <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                Looking for certified Cat6A/fiber structured cabling, server rack assembly, or UPS installation?
+              </p>
+              <a href="https://wa.me/251911928092?text=Hello%20Amir,%20I%20saw%20your%20Data%20Center%20Cabling%20case%20study%20and%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%; justify-content: center;">
+                <span>Chat on WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="project-cta-section">
+      <div class="container">
+        <div class="project-cta-card">
+          <span class="project-cta-tag">Certified Cabling Infrastructure</span>
+          <h2 class="project-cta-title">Planning a Data Center or Server Room Build?</h2>
+          <p class="project-cta-desc">
+            Let's design and deploy an organized, certified, and fault-tolerant cabling infrastructure for your organization.
+          </p>
+          <div class="project-cta-buttons">
+            <a href="../index.html#contact" class="btn btn-primary">
+              <span>Contact Me</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="https://wa.me/251911928092?text=Hello%20Amir,%20I%20am%20interested%20in%20a%20structured%20cabling%20or%20data%20center%20project." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <span>WhatsApp Direct (+251 911 928092)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Lightbox Viewer Dialog -->
+  <div class="diagram-lightbox" id="diagramLightbox" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" aria-hidden="true">
+    <div class="diagram-lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="diagram-lightbox-container">
+      <div class="diagram-lightbox-header">
+        <div class="diagram-lightbox-header-info">
+          <span class="diagram-lightbox-badge" id="lightboxTag">Data Center Asset</span>
+          <h3 class="diagram-lightbox-title" id="lightboxTitle">Project Asset</h3>
+          <span class="diagram-lightbox-counter" id="lightboxCounter">1 / 6</span>
+        </div>
+        <div class="diagram-lightbox-actions">
+          <button type="button" class="diagram-lightbox-close" id="lightboxCloseBtn" aria-label="Close lightbox viewer">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="diagram-lightbox-body" id="lightboxViewport">
+        <button type="button" class="diagram-lightbox-nav prev" id="lightboxPrevBtn" aria-label="Previous image">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <div class="diagram-lightbox-canvas" id="lightboxCanvas">
+          <img src="../images/projects/datacenter.jpg" alt="Enterprise Data Center" id="lightboxImg" class="diagram-lightbox-image">
+        </div>
+
+        <button type="button" class="diagram-lightbox-nav next" id="lightboxNextBtn" aria-label="Next image">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+
+      <div class="diagram-lightbox-footer">
+        <p class="diagram-lightbox-caption" id="lightboxCaption">Enterprise 42U data center server cabinet and structured cabling dressing.</p>
+        <div class="diagram-lightbox-thumbnails" id="lightboxThumbnails"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>Amir Kassim</h4>
+          <p>Network Administrator &amp; Systems Engineer • Addis Ababa, Ethiopia</p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#skills">Skills</a></li>
+          <li><a href="../index.html#experience">Experience</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../index.html#education">Education</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Amir Kassim. All rights reserved. Built with pure HTML, CSS, and JS (Offline Ready).
+        </div>
+        <button class="back-to-top-btn" id="back-to-top" aria-label="Back to top of page">
+          <span>▲ Back to Top</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Detail Controller JS -->
+  <script src="../js/project-detail.js"></script>
+</body>
+</html>

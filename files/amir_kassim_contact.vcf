@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Kassim;Amir;;;
+FN:Amir Kassim
+TITLE:Network Administrator & Systems Engineer
+TEL;TYPE=CELL,VOICE:+251913869337
+EMAIL;TYPE=INTERNET,PREF:amirkassim00@gmail.com
+URL:https://www.linkedin.com/in/amir-kassim
+ADR;TYPE=WORK,POSTAL:;;Addis Ababa;;;Ethiopia
+NOTE:Computer Science Graduate with Distinction | Cisco Networking, Hikvision HCSA CCTV, Windows Server, CNET ERP, IP Telephony, Web Development.
+END:VCARD
